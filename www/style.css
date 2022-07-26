@@ -1,0 +1,74 @@
+#signout{
+      float: right;
+}
+
+#signin{
+  color: white;
+  background-color:#3c8dbc;
+  padding: 10px 15px; width: 150px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#signin:hover {
+  background-color: black;
+
+}
+
+.shiny-notification {
+  position: fixed !important;
+  top: calc(85%) !important;
+  width: 200px !important;
+}
+
+.shiny-notification-message {
+    color: #000 !important;
+}
+
+.icons {
+  display: inline-block;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.stitle {
+    display:inline-block;padding: 0 0 30px;color:#333; font-weight:600;
+}
+
+
+
+#loginpage{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    background: white;
+    width: 30%;
+    margin: auto;
+    padding: 50px 20px;
+    border: solid 2px #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+@media only screen and (max-width: 800px) {
+#loginpage{
+     top: 0;
+    height: 100%;
+    left: 0;
+    border: 0;
+    background: white;
+    width: 100%;
+}
+}
+
+
+
+
+.elevation-3 {
+     box-shadow: 0 !important;
+}
+
+.img-circle {
+    border-radius: 0 !important;
+}
