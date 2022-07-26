@@ -2,6 +2,12 @@
 
 A basic survey application for training/workshops participants
 
+### Features:
+
+- Collects basic info via form
+- Maps location of user
+- Provide collective informations via graphs
+
 Application Demo:
 
 https://bjung.shinyapps.io/training_survey/ 
